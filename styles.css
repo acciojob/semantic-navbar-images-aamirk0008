@@ -1,2 +1,17 @@
 
 /* Your CSS Code here. */
+nav ul{
+	display: flex;
+	gap: 1rem;
+	background: red;
+	padding: 5px 10px;
+}
+nav ul li {
+	list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 20px;
+	color: black;
+}
